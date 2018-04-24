@@ -17,7 +17,7 @@ public class Activity2 extends AppCompatActivity {
         // Get the TextView object
         TextView tv1 = (TextView) findViewById(R.id.textView1);
         // Display the name and age on the TextView
-        tv1.setText(" " + info[0] + info[1]);
+        tv1.setText(" " + info[0] + " " + info[1]);
     }
 
 
