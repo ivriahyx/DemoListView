@@ -42,7 +42,6 @@ public class FoodAdapter extends ArrayAdapter<Food> {
         // Get the ImageView object
         ivStar = (ImageView) rowView.findViewById(R.id.ivStar);
 
-
         // The parameter "position" is the index of the
         //  row ListView is requesting.
         //  We get back the food at the same index.

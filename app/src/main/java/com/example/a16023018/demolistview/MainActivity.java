@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         lv = (ListView) this.findViewById(R.id.lvFood);
 
         // Create a few food objects in Food array
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         //  each row and the food String array together
         aa = new FoodAdapter(this, R.layout.row, food);
         lv.setAdapter(aa);
-
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
